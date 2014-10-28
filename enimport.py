@@ -67,6 +67,7 @@ parser = argparse.ArgumentParser(
 	# Inherit options from config_parser
 	parents=[conf_parser]
 	)
+# TODO: maybe move this next line down to make sure config file is processed AFTER option defaults?
 parser.set_defaults(**defaults)
 parser.add_argument('-d','--debug',
     help='Print lots of debugging statements',
