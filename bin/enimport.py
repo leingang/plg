@@ -1,4 +1,4 @@
-#!/opt/local/bin/python
+#!/opt/local/bin/python2.7
 #
 # script to take a CSV list of filenames/NetID/name pairs and import to Evernote
 #
