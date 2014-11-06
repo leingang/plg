@@ -1,28 +1,9 @@
-python-package-template
-=======================
+PaperLess Grading with the plg package
+======================================
 
-Start template for python package.  
+This is a python package for managing, munging, and maintaing student data.  That data could be directory information or academic records.
 
-### Usage ###
-1. Run `git clone git://github.com/vital-fadeev/python-package-template.git`
-2. Write Your nice code.
-
-
-### Concept ###
-* **One location for settings** - all settings specified in **setup.py** only
-* **Simple usage** - one command: **make**
-
-
-### Features ###
-* setup.py - all distutils, setuptools features
-* tests - unittest, pytest
-* .tar.gz - source generation
-* .deb generation
-* _.rpm generation_
-* virtualenv - install and put package into it
-
-
-### More commands ###
+### Commands ###
 * **make test** - run all tests
 * **make deb** - build Debian package
 * **make source** - build source tarball
@@ -56,8 +37,4 @@ Start template for python package.
         |-- requirements.txt
         `-- setup.py
 
-
-Please, send ideas - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
-Send issues - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
-You find bug? - post it to me [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
-
+Layout structure cloned from [python-package-template](https://github.com/vital-fadeev/python-package-template)
